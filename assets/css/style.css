@@ -1,0 +1,91 @@
+body {
+  background-color: #ffffff;
+}
+
+/* Barra de navegación */
+.bg-purple {
+  background: #660066;
+}
+
+.logo {
+  font-size: 50px;
+  color: #ffffff;
+  font-family: 'Ceviche One', cursive;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor_foto {
+  width: 60%;
+  height: 60%;
+  background-image: url("assets/img/blob.jpg");
+}
+
+.yo-soy {
+  text-align: center;
+}
+
+.texto1 {
+  font-family: "Oswald", cursive;
+  font-weight: 200;
+  font-size: 72pt;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.texto2 {
+  font-family: "Oswald", cursive;
+  font-weight: bold;
+  font-size: 40pt;
+  color: #ffffff;
+
+
+}
+
+.texto3 {
+  font-family: "Oswald", cursive;
+  font-weight: bold;
+  font-size: 35pt;
+  color: #ffffff;
+  margin: 0;
+}
+.texto4 {
+  font-family: "Oswald", cursive;
+  font-weight: bold;
+  font-size: 35pt;
+  color: #000000;
+  margin: 0;
+}
+
+.span,
+.borde-n {
+  margin: auto;
+  margin-top: auto;
+  border-bottom: 1px solid #000000;
+  margin-top: 20px;
+  width: 115pt;
+  text-align: center;
+}
+.span,
+.borde-b {
+  margin: auto;
+  margin-top: auto;
+  border-bottom: 1px solid #ffffff;
+  margin-top: 20px;
+  width: 115pt;
+  text-align: center;
+}
+.box {
+  border: 3px solid greenyellow;
+}
+
+.boton {
+  text-align: center;
+}
+.btn-lg{
+  padding: .5rem 5rem;
+}
+
+footer i {
+  margin: 00.25em 0.5em 0.25em;
+}

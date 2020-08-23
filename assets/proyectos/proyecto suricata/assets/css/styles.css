@@ -1,0 +1,42 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-magenta {
+    background-color: #E83E8C;
+}
+
+.logo {
+    height: 3.3em;
+}
+
+.main_title {
+    color: #707070;
+}
+
+.card-columns {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    list-style: none;
+}
+
+.icons-section {
+    background-color: teal;
+}
+
+.credit-cards {
+    font-size: 2.25em;
+    padding: 0;
+}
+
+.credit-cards .creditcard-text,
+.credit-cards .creditcard-img {
+    display: inline-block;
+}
+
+.logo-footer {
+    height: 6.25em;
+}

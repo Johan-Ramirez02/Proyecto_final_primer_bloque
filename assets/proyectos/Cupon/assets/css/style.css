@@ -1,0 +1,115 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo-w , .logo-b {
+  height: 25px;
+  width: 86px;
+}
+
+.bg-success{
+  background: #28A745;
+}
+.texto-gris {
+color:#707070;
+font-family: 'Rotobo', sans-serif;
+font-weight: 300;
+}
+.texto-gris2 {
+  color:#707070;
+font-family: 'Rotobo', sans-serif;
+font-weight: 300;
+}
+.img{
+  width: 100%;
+}
+
+/* estilos cards */
+.cajas{
+  padding: 4%;
+}
+
+.parr1{
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  color:#212529;
+}
+
+.parr2{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  color:#707070;
+}
+
+.parr3{
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  color:#707070;
+}
+
+.p1, .p2 {
+display: inline-block;
+}
+
+.p1{ 
+  font-size: 16px;
+  font-weight: 300;
+  color:#707070;
+}
+
+.p2{
+  font-size: 20px;
+  font-weight: 500;
+  color:#28A745;
+}
+.m_ic{
+  margin-right: 5px;
+}
+
+/*estilos del formulario*/
+
+.estiloLabel{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.estilosFormulario{
+  padding: 20px;
+}
+
+.estilosIn{
+  margin-top: 15px;
+  color:#707070;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.estiloBoton{
+  margin-top: 15px;
+  width: 100px;
+  background: white;
+}
+
+.boton {
+border-color: 1px solid #F8F9FA;
+font-family: 'Rotobo', sans-serif;
+  font-weight: 500;
+}
+
+
+footer{
+  height: 118px;
+  background-color: #ffffff;
+}
+
+.text-formulario {
+  font-family: 'Rotobo', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  padding-top: 25px;
+}
+
