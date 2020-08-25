@@ -17,6 +17,25 @@ body {
   padding: 0;
   margin: 0;
 }
+.grid-block {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.img-me {
+  width: 100%;
+}
+
+.container1-img {
+  position: relative;
+}
+
+.yo-soy {
+  text-align: center;
+}
+
 /* parrafos */
 .texto1 {
   font-family: "Oswald", cursive;
@@ -84,7 +103,7 @@ body {
   position: absolute;
   top: 65%;
   text-align: center;
-  font-size: calc(2em + 1vw);
+  font-size: calc(2em + 2vw);
   color: #ffffff;
   font-family: "Oswald", cursive;
   font-weight: 300;
@@ -95,7 +114,7 @@ body {
   position: absolute;
   top: 80%;
   text-align: center;
-  font-size: calc(2em + 1vw);
+  font-size: calc(2em + 2vw);
   color: #ffffff;
   font-family: "Oswald", cursive;
   font-weight: bold;
@@ -116,7 +135,7 @@ body {
   /* seccion #3 sobre mí */
 .parra {
   width: 100%;
-  margin: 50px;
+  margin: 0;
   padding: 25px;
 }
 
