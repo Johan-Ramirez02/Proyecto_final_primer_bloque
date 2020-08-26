@@ -56,23 +56,25 @@
 
   <!-- Seccion #2 yo soy-->
 
-  <div>
-    <div class="container1-img">
-      <div class="texto">
-        <span class="borde-b">Yo soy</span>
-      </div>
-      <div class="nombre text-center">
-        <span class="">Johan</span>
-      </div>
-      <div class="img1" style="background-image: url('assets/img/me-img.JPG');"></div>
+  <div class="container1-img">
+    <div class="texto">
+      <span class="borde-b">Yo soy</span>
     </div>
+    <div class="nombre text-center">
+      <span class="">Johan</span>
+    </div>
+    <div class="img1" style="background-image: url('assets/img/me-img.JPG');"></div>
   </div>
 
 
 
 
   <!--Seccion #3 Sobre Mi -->
-  <section class="d-none d-sm-block d-none d-lg-block" id= about>
+
+  <!-- <section class="d-none d-sm-block d-none d-lg-block" id= about> -->
+
+  <section class="d-none d-sm-block d-none d-lg-block" id=about>
+
     <h2 class="text-center txt">SOBRE MÍ</h2>
     <div class="borde-n"></div>
     <div class="parra text-center">
@@ -91,6 +93,7 @@
           Santiago pero este año 2020 ha sido muy peculiar y no podré hacerlo este año pero volveremos y seguiremos
           conociendo más de Chile.</p>
       </div>
+
       <div class="parra1">
         <h2>Lo que me gusta hacer</h2>
         <p> Un poco más sobre quien soy... Tengo migrando casi 5 años viví en la hermosa Panamá de donde solo tengo
@@ -117,10 +120,12 @@
         <div class="borde-n"></div>
       </span>
     </div>
+
     <div class="row">
       <div class="col-12">
         <div class="container text-center text-white">
-          <i class="fas fa-desktop text-center fa-5x icon-cog my-5" style="color: blueviolet;"></i>
+          <a href="#exp"><i class="fas fa-desktop text-center fa-5x icon-cog my-5" style="color: #660066;"
+              data-toggle="modal" data-target="#ST"></i></a>
           <h2 class="txt">Soporte técnico</h2>
           <p class="parra2 d-none d-sm-block">Realicé esta actividad jornada de medio tiempo para un empresa de
             servicios informaticos cuando estudiaba, me capacito para entender las estructuras
@@ -133,10 +138,12 @@
         </div>
       </div>
     </div>
+
     <div class="row">
       <div class="col-12">
         <div class="container text-center text-white">
-          <i class="far fa-building fa-5x icon-cog my-5" style="color: blueviolet;"></i>
+          <a href="#exp"><i class="far fa-building fa-5x icon-cog my-5" style="color: #660066;" data-toggle="modal"
+              data-target="#GV"></i></a>
           <h2 class="txt">Gestor de Ventas</h2>
           <p class="parra2 d-none d-sm-block">Me desarrollé en el área de ventas de inmuebles donde cumplía el rol de
             ayudar con el financiamiento para compra de apartamentos, documentación bancararia, estuduio
@@ -145,6 +152,54 @@
             equipo de trabajo sólido con mucho tiempo experiencia y me puse a la par con ese equipo en el primer año de
             trabajo que estuve allí.
           </p>
+        </div>
+      </div>
+    </div>
+    <!-- modal #1 -->
+
+    <div class="modal fade" id="ST" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Soporte Técnico</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Realicé esta actividad jornada de medio tiempo para un empresa de
+            servicios informaticos cuando estudiaba, me capacito para entender las estructuras
+            de una computadora a nivel hardware, el ensablado, cambios de piezas, mantenimietos preventivos, solución de
+            problemas en general, era ayudante del
+            instalador de servidores, allí aprendí un poco de cableado, conexiones cisco, protocolos de conxión ethernet
+            y WIFI fue una experiencia total de aprendizaje, deje de ser
+            ayudante y emepece a trabajar solo en el area por mi rápido aprendizaje del servicio prestado.
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal #2 -->
+
+    <div class="modal fade" id="GV" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Gestor de Ventas</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Me desarrollé en el área de ventas de inmuebles donde cumplía el rol de ayudar con el financiamiento para
+            compra de apartamentos, documentación bancararia, estuduio creditício de los clientes, genstión de
+            documentación legal para la adqusición los apartamentos. Fue experiencia nueva para mí a al cual me adapte
+            dado que llegué a un equipo de trabajo sólido con mucho tiempo experiencia y me puse a la par con ese equipo
+            en el primer año de trabajo que estuve allí.
+          </div>
+          <div class="modal-footer">
+          </div>
         </div>
       </div>
     </div>
